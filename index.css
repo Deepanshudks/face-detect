@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -6,8 +6,16 @@ body{
     display: flex;
     flex-flow: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    background-color:#9badc0;
 }
-canvas{
-position:absolute
+
+canvas {
+    position: absolute;
+}
+.cpy{
+    display: flex;
+    width: 100vw;
+    align-items: self-end;
+    flex-direction: column-reverse;
 }
